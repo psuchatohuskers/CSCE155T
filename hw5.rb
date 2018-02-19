@@ -69,6 +69,16 @@ def doublex(int1,int2,int3)
 end
 # Refernce for ** https://www.ruby-forum.com/topic/192240
 
+def range(int1)
+  if int1 <= 0
+    return "nil"
+  else
+    range1 = 1..int1
+    return range1
+  end
+end
+
+
 #---- Fiding the area of the circle ----#
 def circumference(int1)
   pi = 3.14
@@ -167,8 +177,12 @@ end
 # cir3 = circumference(-5)
 # puts cir3
 
-test_str1 = "I love computer."
-test_str2 = "I must eat doritos."
+# test_str1 = "I love computer."
+# test_str2 = "I must eat doritos."
+#
+# puts charcount(test_str1)
+# puts charcount(test_str2)
 
-puts charcount(test_str1)
-puts charcount(test_str2)
+# puts range(3).class
+# puts range(1).class
+# puts range(-1)
