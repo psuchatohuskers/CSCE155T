@@ -24,4 +24,5 @@ word_count.each_key do |key|
 end
 
 word_count.each {|item1,item2| puts "#{item2} #{item1}"}
+
 drac.close
